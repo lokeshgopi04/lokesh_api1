@@ -8,4 +8,5 @@ test('Frames handling', async ({ page }) => {
   await frame1.locator('//img[contains(@data-src,"JMeter")]').click();
   await frame1.locator('//img[contains(@data-src,"Mobile")]').click();
   await page.locator('//span[text()="Sortable"]').click();
+  console.log("NEWbranch Branch");
 });
