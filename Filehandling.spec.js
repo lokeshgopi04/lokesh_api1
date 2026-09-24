@@ -6,4 +6,5 @@ test('File handling', async ({ page }) => {
     await page.getByRole('button', { name: 'Validate and upload' }).click();
     await page.waitForTimeout(5000);
     await page.screenshot({ path: 'screenshots/filehandling.png' });
+    console.log("git");
 });
